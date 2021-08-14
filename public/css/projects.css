@@ -72,17 +72,17 @@ a.disabled{
 .footer .social-icons:hover{
     padding: 0px;
 }
-/* -------------------Resume---------------------- */
+/* -------------------projects---------------------- */
 body{
     background-color: #f8ede2;
 }
 
 
 
-#resume .container{
+#projects .container{
     display: grid;
 }
-#resume-title{
+#projects-title{
     margin: 100px 0 0 0;
     text-align: center;
     font-weight: bolder;
@@ -95,13 +95,13 @@ body{
     display: grid;
     grid-template-columns: auto auto;
 }
-.resume-sections{
+.projects-sections{
     margin: 100px 0 -20px 0;
     font-size: 25px;
     padding: 0 0 0 205px;
     font-weight: bold;
 }
-.resume-cards{
+.projects-cards{
     grid-column-start: 1;
     grid-column-end: 3;
     margin: 50px auto -20px auto;
@@ -117,49 +117,28 @@ body{
 }
 
 
-
-
-#cv{
-    background-color: #C60021;
-    border: 2px solid #C60021;
-    color: #fff;
-    padding: 5px;
-    margin: 100px 0 -20px 186px;
-    width: 200px;
-    height: 34px;
-    text-align: center;
-    border-radius: 100px;
-    text-decoration: none;
-    transition: 0.2s;
-}
-#cv:hover{
-    border: 2px solid #000;
-    color: #000;
-    background-color: #F4ECE6 ;
-}
-
-
-.resume-cards .left{
+.projects-cards .left{
     padding: 40px 0 0 40px;
 }
-.resume-cards .right{
+.projects-cards .right{
     border-left: 2px dotted #C60021;
 }
 
-.resume-cards h3{
+.projects-cards h3{
     font-size: 15px;
     margin-bottom: -15px;
     font-weight: 600;
     color: #777;
 }
-.resume-cards h2{
+.projects-cards h2{
     margin-top: 15px;
     margin-bottom: -5px;
     font-size: 20px;
     font-weight: bold;
     color: #000;
 }
-.resume-cards h1{
+.projects-cards h1{
+    border-left: 10px solid red;
     font-size: 30px;
     font-weight: bolder;
     color: #000;
@@ -167,19 +146,36 @@ body{
 
 
 
-.resume-info{
+.projects-info{
     margin-top: 60px;
     font-size: 20px;
 }
-#gittigidiyor{
-    height: 50px;
-    margin: 50px 0 0 200px;
+#website{
+    margin: 0 0 0 125px;
+    font-size: 20px;
+    background-color: #C60021;
+    border: 2px solid #C60021;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+    border-radius: 100px;
+    text-decoration: none;
+    transition: 0.2s;
 }
-#ytu{
+#website:hover{
+    border: 2px solid #000;
+    color: #000;
+    background-color: #F4ECE6 ;
+}
+#portfolio{
+    margin: 60px 26px 60px 11px;
+    height: 250px;
+}
+#jae{
+    margin: 110px 31px 110px 16px;
     height: 150px;
-    margin: -5px 0 0 275px;
 }
-#vut{
-    height: 100px;
-    margin: -15px 0 0 200px;
+#gl{
+    margin: 85px 63px 85px 48px;
+    height: 200px;
 }
