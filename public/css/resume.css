@@ -136,8 +136,13 @@ body{
     color: #000;
     background-color: #F4ECE6 ;
 }
+
+
 .resume-cards .left{
     padding: 40px 0 0 40px;
+}
+.resume-cards .right{
+    border-left: 2px dotted #C60021;
 }
 
 .resume-cards h3{
@@ -159,6 +164,12 @@ body{
     color: #000;
 }
 
+
+
+.resume-info{
+    margin-top: 60px;
+    font-size: 20px;
+}
 #gittigidiyor{
     height: 50px;
     margin: 50px 0 0 200px;
@@ -170,11 +181,4 @@ body{
 #vut{
     height: 100px;
     margin: -15px 0 0 200px;
-}
-.resume-cards .right{
-    border-left: 2px dotted #C60021;
-}
-.resume-info{
-    margin-top: 60px;
-    font-size: 20px;
 }
