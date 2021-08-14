@@ -10,9 +10,8 @@ a{
 a.disabled{
     pointer-events: none;
     cursor: none;
-
-
 }
+/* ------------------------------------------ */
 .navbar{
     box-shadow: 0 2px 18px 0 rgb(129 162 182 / 20%);
     display: flex;
@@ -46,28 +45,23 @@ a.disabled{
 #right-buttons{
     margin-top: 15px;
 }
-
-
-
-
+/* ------------------------------------------ */
 .bg{
     overflow: visible;
     z-index: -1;
 }
 #bg-l{
     background-color: #E6DACE;
-    padding-bottom: 100%;
+    padding-bottom: 707px;
 }
-
-
-
+/* ------------------------------------------ */
 #card{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     border: none;
     box-shadow: 0 2px 18px 0 #888888;
-    margin: 5% 0 0 10%;
+    margin: 75px 0 0 150px;
     position: absolute;
     z-index: 1;
     height: 557px;
@@ -83,9 +77,8 @@ a.disabled{
     margin:0 auto;
     width: 40%;
     box-sizing: border-box;
-    border-top: 5px solid saddlebrown
+    border-top: 5px solid #C60021
 }
-
 #card .card-footer{
     margin: 0px 0px -9px 0;
     width: 100%;
@@ -103,25 +96,86 @@ a.disabled{
     display: inline-block;
     margin: 0 15px 0 15px;
     transition: 0.2s;
-    padding: 1px;
-    height: 25px;
-    width: 25px;
+    padding: 2px;
+    height: 22px;
+    width: 22px;
 }
 .card-footer-items img:hover{
-    height: 25px;
-    width: 25px;
+    height: 22px;
+    width: 22px;
     padding: 0px;
 
 }
-
+/* ------------------------------------------ */
 .info{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     border: none;
-    margin: 5% 0 0 35%;
+    margin: 75px 0 0 530px;
     position: absolute;
     z-index: 1;
     height: 557px;
     width: 500px;
+}
+.info h1{
+    font-weight: bolder;
+    margin: 50px 0 0 50px;
+    font-size: 60px;
+}
+.info h2{
+    font-weight: bold;
+    font-size: 40px;
+    margin: -50px 100px 0px 50px;
+}
+.info a{
+    background-color: #fff;
+    color: #000;
+    padding: 5px;
+    margin: -50px 100px 0px 50px;
+    width: 110px;
+    height: 34px;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid #000;
+    text-decoration: none;
+    transition: 0.2s;
+}
+.info a:hover{
+    border: 2px solid #C60021;
+    color: #fff;
+    background-color: #C60021;
+}
+.info p{
+    margin: -50px 100px 0px 50px;
+    font-size: 20px;
+}
+.info #info-resume{
+    margin-right: -30px;
+}
+/* ------------------------------------------ */
+.footer{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 10px 0;
+}
+.footer #copyright{
+    padding: 15px 0px 0 50px;
+
+}
+.footer th, .footer td{
+    text-align: center;
+}
+.footer td{
+    width: 200px;
+}
+.footer .social-icons{
+    padding: 5px;
+    height: 25px;
+    width: 25px;
+    transition: 0.2s;
+}
+.footer .social-icons:hover{
+    padding: 0px;
 }
