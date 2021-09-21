@@ -79,6 +79,9 @@ a.disabled{
     box-sizing: border-box;
     border-top: 5px solid #C60021
 }
+#card #card-button{
+    display: none;
+}
 #card .card-footer{
     margin: 0px 0px -9px 0;
     width: 100%;
