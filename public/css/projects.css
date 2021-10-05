@@ -180,3 +180,6 @@ body{
     margin: 85px 63px 85px 48px;
     height: 200px;
 }
+.footer #footer-icons table{
+    margin: auto;
+}

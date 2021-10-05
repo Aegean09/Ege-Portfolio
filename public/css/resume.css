@@ -76,6 +76,9 @@ a.disabled{
 body{
     background-color: #f8ede2;
 }
+.footer #footer-icons table{
+    margin: auto;
+}
 
 
 

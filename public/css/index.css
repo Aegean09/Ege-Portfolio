@@ -48,7 +48,6 @@ a.disabled{
 /* -------------------Background---------------------- */
 .bg{
     overflow: visible;
-    z-index: -1;
 }
 #bg-l{
     background-color: #E6DACE;
@@ -63,7 +62,6 @@ a.disabled{
     box-shadow: 0 2px 18px 0 #888888;
     margin: 75px 0 0 150px;
     position: absolute;
-    z-index: 1;
     height: 557px;
     width: 375px;
     background-color: #F4ECE6;
@@ -116,7 +114,6 @@ a.disabled{
     border: none;
     margin: 75px 0 0 530px;
     position: absolute;
-    z-index: 1;
     height: 557px;
     width: 500px;
 }
@@ -164,6 +161,7 @@ a.disabled{
     margin: 10px 0;
 }
 .footer #copyright{
+    margin: auto 0;
     padding: 15px 0px 0 50px;
 }
 .footer th, .footer td{
@@ -171,6 +169,13 @@ a.disabled{
 }
 .footer td{
     width: 200px;
+}
+.footer #footer-icons table{
+    margin: auto;
+}
+.footer #footer-icons td{
+    text-align: center;
+    width: auto!important;
 }
 .footer .social-icons{
     padding: 5px;
