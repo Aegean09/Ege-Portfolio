@@ -80,8 +80,6 @@ body{
     margin: auto;
 }
 
-
-
 #resume .container{
     display: grid;
 }
@@ -118,9 +116,6 @@ body{
     width: 725px;
     background-color: #fff;
 }
-
-
-
 
 #cv{
     background-color: #C60021;
