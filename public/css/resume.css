@@ -72,6 +72,10 @@ a.disabled{
 .footer .social-icons:hover{
     padding: 0px;
 }
+.footer #footer-icons td{
+    text-align: center;
+    width: auto!important;
+}
 /* -------------------Resume---------------------- */
 body{
     background-color: #f8ede2;

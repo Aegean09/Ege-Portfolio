@@ -1,0 +1,109 @@
+@media (max-width:768px){
+    .projects-cards{
+        height: auto;
+        width: 90%;
+    }
+    .col-md-5{
+        display: flex;
+        justify-content: center;
+        border-top: 2px dotted #C60021;
+        width: 100%;
+    }
+    .project-logos{
+        margin: 5% 0 !important;
+        width: auto !important;
+        height: 100px !important; 
+    }
+    /* #gl{
+        margin: 5% 0;
+        width: auto;
+        height: 100px; 
+    }
+    #jae{
+        margin: 5% 0;
+        width: auto;
+        height: 100px;    
+    }
+    #portfolio{
+        margin: 5% 0;
+        width: auto;
+        height: 100px;      
+    } */
+    #website{
+        display: none;
+    }
+    
+    #projects-title{
+        font-size: 24px;
+        margin: 10% 0 0 0;
+    }
+    
+    .projects-cards h3{
+        margin: 10% 0 0 2%;
+        font-size: 15px;
+        margin-bottom: 0;
+        font-weight: 600;
+        color: #777;
+    }
+    #port-lang{
+        margin: 20% 0 0 0;
+        text-align: center;
+    }
+    #jae-lang{
+        margin: 19% 0 0 0;
+        text-align: center;
+    }
+    #gl-lang{
+        margin: 19% 0 0 0;
+        text-align: center;
+    }
+    
+    .projects-cards .left{
+        padding: 0px 0 0 0px;
+    }
+    .projects-cards .right{
+        border-left: 0px dotted #C60021;
+    }
+
+
+    /*------------Footer------------*/
+    .footer{
+        background-color: white;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin: 15% 0 0 0;
+        flex-direction: column-reverse;
+        padding-left: 15px;
+        padding-top: 10px;
+    }
+    .footer #copyright{
+        padding: 15px 0px 0 0;
+    }
+    .footer th, .footer td{
+        text-align: center;
+    }
+    .footer td{
+        font-size: 11px;
+        width: 200px;
+        border-right: 1px solid #C60021;
+    }
+    .footer #footer-icons,.footer #footer-icons td{
+        border-right: 0px solid #C60021 !important;
+    }
+    .footer .social-icons{
+        padding: 5px;
+        height: 26px;
+        width: 28px;
+        transition: 0.2s;
+    }
+    .footer .social-icons:hover{
+        padding: 0px;
+    }
+}
+
+@media (max-width:768px){
+    .footer{
+        margin: 15% 0 0 0;
+    }
+}

@@ -72,6 +72,10 @@ a.disabled{
 .footer .social-icons:hover{
     padding: 0px;
 }
+.footer #footer-icons td{
+    text-align: center;
+    width: auto!important;
+}
 /* -------------------projects---------------------- */
 body{
     background-color: #f8ede2;
@@ -179,6 +183,15 @@ body{
 #gl{
     margin: 85px 63px 85px 48px;
     height: 200px;
+}
+#port-lang{
+    margin-top: 200px;
+}
+#jae-lang{
+    margin-top: 190px;
+}
+#gl-lang{
+    margin-top: 190px;
 }
 .footer #footer-icons table{
     margin: auto;
