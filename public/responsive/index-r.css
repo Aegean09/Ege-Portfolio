@@ -12,17 +12,12 @@
     #border{
         display: none;
     }
-    /* .info{
-        display: none;
-    } */
 /*-----------------------------------------*/
     body{
         background-color: #E6DACE;
         height: 100vh;
     }
-    footer{
-        margin-top: auto;
-    }
+
     #card{
         position: relative;
         margin: 30px auto;
@@ -91,7 +86,6 @@
         font-weight: bold;
         font-size: 20px;
         display: block;
-
     } 
     .info p{
         margin: 10px 22px 0 34px;
@@ -100,8 +94,6 @@
     .info #info-resume{
         margin-right: -30px;
     }
-
-
 
     .footer{
         background-color: white;
@@ -126,7 +118,6 @@
     }
     .footer #footer-icons,.footer #footer-icons td{
         border-right: 0px solid #C60021 !important;
-
     }
     .footer .social-icons{
         padding: 5px;
@@ -138,15 +129,14 @@
         padding: 0px;
     }
 }
+
 @media (max-width:768px){
     .footer{
         margin: 15% 0 0 0;
-
     }
 }
 @media (max-width:768px){
     .footer{
         margin: 15% 0 0 0;
-
     }
 }
