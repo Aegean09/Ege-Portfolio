@@ -11,6 +11,9 @@ a.disabled{
     pointer-events: none;
     cursor: none;
 }
+.dropdown{
+    display: none;
+}
 /* -------------------NAV---------------------- */
 .navbar{
     box-shadow: 0 2px 18px 0 rgb(129 162 182 / 20%);
@@ -72,13 +75,18 @@ a.disabled{
 .footer .social-icons:hover{
     padding: 0px;
 }
-/* -------------------Resume---------------------- */
-body{
-    background-color: #f8ede2;
+.footer #footer-icons td{
+    text-align: center;
+    width: auto!important;
 }
 .footer #footer-icons table{
     margin: auto;
 }
+/* -------------------Resume---------------------- */
+body{
+    background-color: #f8ede2;
+}
+
 
 
 

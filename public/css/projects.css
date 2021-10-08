@@ -11,6 +11,9 @@ a.disabled{
     pointer-events: none;
     cursor: none;
 }
+.dropdown{
+    display: none;
+}
 /* -------------------NAV---------------------- */
 .navbar{
     box-shadow: 0 2px 18px 0 rgb(129 162 182 / 20%);

@@ -15,19 +15,27 @@
     <link rel="icon" type="image/gif/png/svg" href="file/images/icons/logo.png">
 </head>
 <body>
-    <nav class="navbar navbar-default justify-content-between" style="margin-bottom: 0;">
-        <div class="container">
-          <div class="header">      
-            <a href="#" class="disabled">Ege Durmaz</a>
-            <div id="right-buttons">
-              <a href="../index.html">About Me</a>
-              <a href="resume.html">Resume</a>
-              <a href="projects.html">Projects</a>
-              <a href="contact.html">Contact</a>
+  <nav class="navbar navbar-default justify-content-between" style="margin-bottom: 0;">
+    <div class="container" style="width: 100%;">
+      <div class="header">      
+        <a href="#" class="disabled">Ege Durmaz</a>
+        <div id="right-buttons">
+          <a id="main-page" class="navbuttons" href="index.html">About Me</a>
+          <a id="resume-page" class="navbuttons" href="pages/resume.html">Resume</a>
+          <a id="project-page" class="navbuttons" href="pages/projects.html">Projects</a>
+          <div class="dropdown">
+            <button onclick="rdropdown()" class="dropbtn">AAA</button>
+            <div id="myDropdown" class="dropdown-content">
+              <a href="index.html">About Me</a>
+              <a href="pages/resume.html">Resume</a>
+              <a href="pages/projects.html">Projects</a>
             </div>
           </div>
+          <!-- <a href="pages/contact.html">Contact</a> -->
         </div>
-    </nav>
+      </div>
+    </div>
+</nav>
     
 
 
