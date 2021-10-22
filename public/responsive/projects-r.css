@@ -1,6 +1,6 @@
 @media (max-width:768px){
     a.disabled{
-        color: black
+        color: black;
         font-size: 15px !important;
     }
     /*----------------------Nav-Bar----------------------*/
