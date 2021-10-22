@@ -13,6 +13,7 @@
         display: none;
     }
     a.disabled{
+        color: black;
         font-size: 15px !important;
     }
 
