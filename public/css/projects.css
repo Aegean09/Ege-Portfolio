@@ -193,6 +193,29 @@ body{
 #gl-lang{
     margin-top: 190px;
 }
+#mgc-lang{
+    margin-top: 160px;
+}
+#mgc-git{
+    width: 30px;
+    margin-left: 340px;
+    margin-top: -25px;
+}
+#gl-git{
+    width: 30px;
+    margin-left: 340px;
+    margin-top: -25px;
+}
+#port-git{
+    width: 30px;
+    margin-left: 340px;
+    margin-top: -25px;
+}
+#jae-git{
+    width: 30px;
+    margin-left: 340px;
+    margin-top: -25px;
+}
 .footer #footer-icons table{
     margin: auto;
 }

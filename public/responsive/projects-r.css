@@ -105,12 +105,23 @@
         margin: 19% 0 0 0;
         text-align: center;
     }
+    #mgc-lang{
+        margin: 19% 0 0 0;
+        text-align: center;
+    }
+    #mgc-git, #jae-git, #gl-git, #port-git{
+        width: 20px;
+        height: 20px;
+        margin: 0 0%;
+    }
+    
     .projects-cards .left{
         padding: 0px 0 0 0px;
     }
     .projects-cards .right{
         border-left: 0px dotted #C60021;
     }
+   
     #website{
         margin:0 0 0 50px;
     }
