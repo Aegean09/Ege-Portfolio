@@ -109,12 +109,22 @@
         margin: 19% 0 0 0;
         text-align: center;
     }
+    #ttt-lang{
+        margin: 19% 0 0 0;
+        text-align: center;
+    }
     #mgc-git, #jae-git, #gl-git, #port-git{
         width: 20px;
         height: 20px;
         margin: 0 0%;
     }
-    
+
+
+    #project-title{
+        font-size: 24px;
+        margin: 25% -50% 0px 8%;
+        }
+
     .projects-cards .left{
         padding: 0px 0 0 0px;
     }

@@ -147,6 +147,13 @@ body{
     font-weight: bolder;
     color: #000;
 }
+#project-title{
+    margin: 27% -82% 0px 40%;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 35px;
+}
+
 
 
 
@@ -184,6 +191,10 @@ body{
     margin: 85px 63px 85px 48px;
     height: 200px;
 }
+#ttt{
+    margin: 110px 31px 110px 30px;
+    height: 150px;
+}
 #port-lang{
     margin-top: 200px;
 }
@@ -195,6 +206,9 @@ body{
 }
 #mgc-lang{
     margin-top: 160px;
+}
+#ttt-lang{
+    margin-top: 200px;
 }
 #mgc-git{
     width: 30px;
@@ -216,6 +230,12 @@ body{
     margin-left: 340px;
     margin-top: -25px;
 }
+/* #ttt-git{
+    width: 30px;
+    margin-left: 340px;
+    margin-top: -25px;
+} */
+
 .footer #footer-icons table{
     margin: auto;
 }
